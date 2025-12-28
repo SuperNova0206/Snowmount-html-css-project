@@ -1,0 +1,32 @@
+.navlinks-cta-button li {
+    position: relative;
+}
+
+.navlinks-cta-button li::before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: calc(50% / 2);
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: width 0.4s ease-out;
+    -webkit-transition: width 0.4s ease-out;
+    -moz-transition: width 0.4s ease-out;
+    -ms-transition: width 0.4s ease-out;
+    -o-transition: width 0.4s ease-out;
+}
+
+.navlinks-cta-button li:hover::before {
+    width: 50%;
+}
+
+li:nth-child(4)::before {
+    width: 0%;
+    height: 0%;
+}
