@@ -1,0 +1,96 @@
+@import url('./components/header.css');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Lato typeface */
+
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url('../assets/fonts/Lato-Black.ttf') format('woff');
+    font-weight: black;
+}
+
+/* Project container Desktop*/
+.container {
+    width: calc(100% - 56px * 2);
+    margin: 0px auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+
+}
+
+/* project logo*/
+header .container .logo {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .brand-logo {
+    width: 80px;
+}
+
+header .container .brand-logo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header .container .logo .brand-name {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+/* burger menu on desktop version doesn't exist*/
+header .container .burger-menu {
+    display: none;
+}
+
+/* Nav links and CTA Button */
+.navlinks-cta-button {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+}
+
+/* Links */
+.navlinks-cta-button li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.navlinks-cta-button li:not(:nth-child(4)){
+    margin-right: 48px;
+}
+
+.navlinks-cta-button li a:not(.cta-button) {
+    font-weight: 900;
+}
+
+.navlinks-cta-button .cta-button {
+    border: 2px solid #fff;
+    padding: 10px 24px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+
+
