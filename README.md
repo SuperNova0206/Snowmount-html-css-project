@@ -2,9 +2,8 @@
 SNOWMOUNT is a project of mine where trying to combine two of the importants skills UI/UX design, little bit of front-end developmenet
 
 ### Project structure
----
+__
 
-```bash
 + Snowmount project
   + public
     + brand-logo.svg
@@ -23,4 +22,3 @@ SNOWMOUNT is a project of mine where trying to combine two of the importants ski
       + varaibles.css
     + Table
   + README.MD
-```
