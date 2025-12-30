@@ -1,0 +1,36 @@
+@media (min-width: 1024px) {
+    .container {
+        width: calc(100% - 56px * 2);
+        margin: 0px auto;
+        background-color: red;
+    }
+}
+
+@media (max-width: 1024px) {
+    header .navlinks-cta-button {
+        display: none;
+    }
+
+    header .burger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 74px;
+    }
+
+    header .burger-menu span {
+        height: 4px;
+        background-color: #fff;
+        border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        -ms-border-radius: 32px;
+        -o-border-radius: 32px;
+    }
+
+    header .burger-menu .middle {
+        width: 50%;
+        align-self: flex-end;
+    }
+
+}
