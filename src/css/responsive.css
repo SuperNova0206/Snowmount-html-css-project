@@ -7,6 +7,10 @@
     }
 
     /* burger menu on desktop version doesn't exist*/
+    header {
+        padding: 24px 0;
+    }
+
     header .burger-menu {
         display: none;
     }
@@ -20,6 +24,10 @@
         background-color: green;
     }
 
+    header {
+        padding: 18px 0;
+    }
+
     header .navlinks-cta-button {
         display: none;
     }
@@ -28,7 +36,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 74px;
+        width: 64px;
     }
 
     header .burger-menu span {
