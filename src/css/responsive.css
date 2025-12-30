@@ -1,12 +1,25 @@
+
 @media (min-width: 1024px) {
     .container {
         width: calc(100% - 56px * 2);
         margin: 0px auto;
         background-color: red;
     }
+
+    /* burger menu on desktop version doesn't exist*/
+    header .burger-menu {
+        display: none;
+    }
 }
 
-@media (max-width: 1024px) {
+@media(max-width: 1024px) {
+
+    .container {
+        width: calc(100% - 32px * 2);
+        margin: 0px auto;
+        background-color: green;
+    }
+
     header .navlinks-cta-button {
         display: none;
     }
@@ -33,4 +46,42 @@
         align-self: flex-end;
     }
 
+}
+
+@media (max-width: 430px) {
+    header {
+        padding: 16px 0px;
+    }
+
+    .container {
+        width: calc(100% - 24px * 2);
+        margin: 0 auto;
+        background-color: blue;
+    }
+
+    header .brand-logo {
+        width: 48px;
+    }
+
+    header .logo .brand-name {
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    header .burger-menu {
+        width: 48px;
+    }
+
+    header .burger-menu span {
+        height: 3px;
+        background-color: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
 }

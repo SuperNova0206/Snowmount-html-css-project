@@ -16,16 +16,7 @@
     font-weight: black;
 }
 
-/* Project container Desktop*/
-.container {
-    width: calc(100% - 56px * 2);
-    margin: 0px auto;
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0px;
 
-}
 
 
 
