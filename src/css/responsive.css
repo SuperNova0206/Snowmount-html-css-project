@@ -1,4 +1,3 @@
-
 @media (min-width: 1024px) {
     .container {
         width: calc(100% - 56px * 2);
@@ -14,9 +13,13 @@
     header .burger-menu {
         display: none;
     }
+
+    header .brand-name {
+        font-size: 1.6rem;
+    }
 }
 
-@media(max-width: 1024px) {
+@media  (min-width: 524px) and (max-width: 1024px) {
 
     .container {
         width: calc(100% - 32px * 2);
@@ -26,6 +29,10 @@
 
     header {
         padding: 18px 0;
+    }
+
+    header .brand-name {
+        font-size: 1.6rem;
     }
 
     header .navlinks-cta-button {
@@ -56,7 +63,7 @@
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 524px) {
     header {
         padding: 16px 0px;
     }
@@ -68,28 +75,36 @@
     }
 
     header .brand-logo {
-        width: 48px;
+        width: 50px;
     }
 
-    header .logo .brand-name {
-        font-family: "Lato", sans-serif;
-        text-transform: uppercase;
-        margin-left: 4px;
+    header .brand-name {
         font-size: 1.2rem;
-        font-weight: 900;
+    }
+
+    header .navlinks-cta-button {
+        display: none;
     }
 
     header .burger-menu {
-        width: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 42px;
     }
 
     header .burger-menu span {
-        height: 3px;
+        height: 4px;
         background-color: #fff;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        -ms-border-radius: 32px;
+        -o-border-radius: 32px;
+    }
+
+    header .burger-menu .middle {
+        width: 50%;
+        align-self: flex-end;
     }
 }
