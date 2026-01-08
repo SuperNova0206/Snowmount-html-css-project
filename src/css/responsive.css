@@ -1,8 +1,7 @@
 @media (min-width: 1024px) {
     .container {
-        width: calc(100% - 56px * 2);
+        width: calc(100% - 112px * 2);
         margin: 0px auto;
-        background-color: red;
     }
 
     /* burger menu on desktop version doesn't exist*/
@@ -24,7 +23,6 @@
     .container {
         width: calc(100% - 32px * 2);
         margin: 0px auto;
-        background-color: green;
     }
 
     header {
@@ -71,7 +69,6 @@
     .container {
         width: calc(100% - 24px * 2);
         margin: 0 auto;
-        background-color: blue;
     }
 
     header .brand-logo {

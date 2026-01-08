@@ -1,5 +1,6 @@
 @import url('./components/header.css');
 @import url('./components/header-micro-interaction.css');
+@import url('./components/hero-section.css');
 @import url('./responsive.css');
 
 * {
@@ -13,7 +14,7 @@
 @font-face {
     font-family: "Lato", sans-serif;
     src: url('../assets/fonts/Lato-Black.ttf') format('woff');
-    font-weight: black;
+    font-weight: 900;
 }
 
 
